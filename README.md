@@ -28,6 +28,10 @@ Like the studio's other apps (`/quickmath_about/`, `/NumIQ/`…), put these file
 
 Firebase Hosting also works (`firebase deploy --only hosting`, set up in `firebase.json`) if you want `https://<project-id>.web.app`.
 
+## Linked from the app
+
+Settings › About opens these live pages: `https://softmobixbd.github.io/offair/` (About OffAir), `…/privacy.html` (from the privacy summary's "Full policy online") and `…/terms.html`. The URLs are in `lib/core/links.dart`; if the site ever moves, change them there and ship an app update.
+
 ## After adding a game
 
 ```sh
