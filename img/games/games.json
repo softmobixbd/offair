@@ -1,0 +1,200 @@
+[
+  {
+    "id": "sky",
+    "title": "Sky Guard",
+    "category": "arcade",
+    "categoryLabel": "Arcade",
+    "color": "#4FB3FF",
+    "ink": "#06223A",
+    "blurb": "Drag the shield, shove the sky aside, keep the balloon alive."
+  },
+  {
+    "id": "sneaky",
+    "title": "Sneaky Steps",
+    "category": "arcade",
+    "categoryLabel": "Arcade",
+    "color": "#E064F5",
+    "ink": "#3A0A45",
+    "blurb": "Just walk to the door. The room has other plans."
+  },
+  {
+    "id": "bubble",
+    "title": "Bubble Pop",
+    "category": "arcade",
+    "categoryLabel": "Arcade",
+    "color": "#9C7BFF",
+    "ink": "#1B0F45",
+    "blurb": "Aim, bank off the walls, pop clusters of three or more."
+  },
+  {
+    "id": "fruit",
+    "title": "Fruit Merge",
+    "category": "physics",
+    "categoryLabel": "Physics",
+    "color": "#FF5C6C",
+    "ink": "#3A0710",
+    "blurb": "Drop fruit into the jar. Two of a kind merge into something bigger."
+  },
+  {
+    "id": "pour",
+    "title": "Pour Me",
+    "category": "physics",
+    "categoryLabel": "Physics",
+    "color": "#2FD3E0",
+    "ink": "#032B2F",
+    "blurb": "Draw one line, guide the water, fill the glass to the line."
+  },
+  {
+    "id": "savepet",
+    "title": "Save the Pet",
+    "category": "physics",
+    "categoryLabel": "Physics",
+    "color": "#62D26F",
+    "ink": "#0B2E12",
+    "blurb": "Draw one line to shield your pet. The bees are coming!"
+  },
+  {
+    "id": "g2048",
+    "title": "2048",
+    "category": "puzzle",
+    "categoryLabel": "Puzzle",
+    "color": "#B6E34F",
+    "ink": "#1D2A04",
+    "blurb": "Slide the tiles, match the numbers, chase the 2048 tile."
+  },
+  {
+    "id": "sudoku",
+    "title": "Sudoku",
+    "category": "puzzle",
+    "categoryLabel": "Puzzle",
+    "color": "#F1E3C0",
+    "ink": "#2A2210",
+    "blurb": "Classic 9×9 with notes, hints and three lives."
+  },
+  {
+    "id": "skiparrow",
+    "title": "Skip Arrow",
+    "category": "puzzle",
+    "categoryLabel": "Puzzle",
+    "color": "#7C8CFF",
+    "ink": "#141A4A",
+    "blurb": "Tap an arrow to send it off the board. Only a clear lane lets it go."
+  },
+  {
+    "id": "dottrails",
+    "title": "Dot Trails",
+    "category": "puzzle",
+    "categoryLabel": "Puzzle",
+    "color": "#FFD447",
+    "ink": "#2B2200",
+    "blurb": "Join each pair of dots with a trail. Trails never cross, and every square must be filled."
+  },
+  {
+    "id": "paintpath",
+    "title": "Paint Path",
+    "category": "puzzle",
+    "categoryLabel": "Puzzle",
+    "color": "#B565FF",
+    "ink": "#2A0A4A",
+    "blurb": "Paint every block. Each colour draws one line from its ring, and tinted blocks take only their own colour."
+  },
+  {
+    "id": "honkgo",
+    "title": "Honk & Go",
+    "category": "puzzle",
+    "categoryLabel": "Puzzle",
+    "color": "#3D7BFF",
+    "ink": "#081A4A",
+    "blurb": "Empty the car park. Tap a car to drive it out, forwards or in reverse, whichever way is clear."
+  },
+  {
+    "id": "volley",
+    "title": "Brick Volley",
+    "category": "arcade",
+    "categoryLabel": "Arcade",
+    "color": "#FF4FD8",
+    "ink": "#3A0730",
+    "blurb": "Aim, fire a volley of balls and knock the numbered bricks down before they reach the floor."
+  },
+  {
+    "id": "bucket",
+    "title": "Bucket Blast",
+    "category": "physics",
+    "categoryLabel": "Physics",
+    "color": "#7BDA3C",
+    "ink": "#132A05",
+    "blurb": "Hold fire, steer the stream with the green pieces, and fill every bucket before the cannon runs dry."
+  },
+  {
+    "id": "stick",
+    "title": "Spin & Stick",
+    "category": "arcade",
+    "categoryLabel": "Arcade",
+    "color": "#C7D2E2",
+    "ink": "#1A2230",
+    "blurb": "Tap to throw knives into the spinning target. Hit a knife already in it and you are out."
+  },
+  {
+    "id": "snip",
+    "title": "Snip & Snack",
+    "category": "physics",
+    "categoryLabel": "Physics",
+    "color": "#E9C27F",
+    "ink": "#2A1D08",
+    "blurb": "Swipe to snip the ropes and drop the berry into the hungry chick. Catch every firefly on the way."
+  },
+  {
+    "id": "revroll",
+    "title": "Rev & Roll",
+    "category": "physics",
+    "categoryLabel": "Physics",
+    "color": "#F2553C",
+    "ink": "#2E0B05",
+    "blurb": "Hold gas to climb, tip back in the air, grab the fuel. How far can you drive before it runs out?"
+  },
+  {
+    "id": "weave",
+    "title": "Duck & Weave",
+    "category": "arcade",
+    "categoryLabel": "Arcade",
+    "color": "#FF9F80",
+    "ink": "#3A1206",
+    "blurb": "Missiles are on your tail. Weave through the sky and lure them into each other."
+  },
+  {
+    "id": "sortiva",
+    "title": "Sortiva",
+    "category": "puzzle",
+    "categoryLabel": "Puzzle",
+    "color": "#FFA94D",
+    "ink": "#2E1700",
+    "blurb": "Pour colours between tubes until each holds just one. 600 levels, every one proved solvable."
+  },
+  {
+    "id": "tumble",
+    "title": "Tumble Blocks",
+    "category": "puzzle",
+    "categoryLabel": "Puzzle",
+    "color": "#FF8A3D",
+    "ink": "#3A1600",
+    "blurb": "Drag blocks onto the board. Fill a row or column to clear it."
+  },
+  {
+    "id": "pairs",
+    "title": "Pair Match",
+    "category": "brain",
+    "categoryLabel": "Brain",
+    "color": "#FF6FB5",
+    "ink": "#3D0722",
+    "blurb": "Flip two cards, remember everything, clear the board."
+  },
+  {
+    "id": "tune",
+    "title": "Tune Recall",
+    "category": "brain",
+    "categoryLabel": "Brain",
+    "color": "#2EE6A8",
+    "ink": "#04291D",
+    "blurb": "Watch, listen, repeat. The tune grows every round."
+  }
+]

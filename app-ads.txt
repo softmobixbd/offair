@@ -1,0 +1,5 @@
+# app-ads.txt for OffAir (https://iabtechlab.com/ads-txt/).
+# Replace the line below with the one AdMob gives you (AdMob → Apps →
+# app-ads.txt), uncommented. It must be served at the root of the developer
+# website named in the Play Store / App Store listing.
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
