@@ -2,29 +2,31 @@
 
 Static pages about the app, written to look and feel like it: the same night and day palettes, fonts, cartridges and bottom dock. No build step, no tracking, no outside requests (fonts are bundled).
 
+OffAir is made by **SoftMobiXBD** (https://softmobixbd.github.io/). The pages use the studio's details from that site: the name as written there, softmobixbd@gmail.com, +880 1644-426285, its Google Play developer page, and the Bangladesh governing law its other apps' terms use.
+
 | File | What |
 |---|---|
 | `index.html` | About OffAir, with the shelf of games (filter chips work like the app's) |
 | `privacy.html` | Privacy Policy: use its URL in Google Play and the App Store |
 | `terms.html` | Terms & Conditions |
-| `app-ads.txt` | AdMob seller verification (placeholder; see below) |
+| `app-ads.txt` | AdMob seller line (pub-9885361335927746); the live one is at the studio site's root |
 | `css/style.css`, `js/app.js` | Shared look; the small script handles the theme switch, filter chips and app bar (pages read fine without it) |
 | `img/games/` | Each game's cartridge label, exported from the app |
 
 ## Before publishing
 
-1. **Contact email.** Replace `support@offair.example` (in all three pages) with the real support address. Play requires a working contact in the privacy policy.
-2. **Governing law.** `terms.html` § "Governing law" says Bangladesh. Change it if the developer is established elsewhere.
-3. **app-ads.txt.** Uncomment and fill in the line from AdMob (docs/04_ADS.md).
-4. Have the privacy policy and terms read by someone qualified. They describe what the app really does (Firebase Analytics and Crashlytics, AdMob, consent, local storage), but they are not legal advice.
-5. When the iPhone version ships, swap the "iPhone: coming soon" button in `index.html` for the App Store link.
+1. Have the privacy policy and terms read by someone qualified. They describe what the app really does (Firebase Analytics and Crashlytics, AdMob, consent, local storage), but they are not legal advice.
+2. When the iPhone version ships, swap the "iPhone: coming soon" button in `index.html` for the App Store link.
 
-## Hosting
+## Hosting (on the studio site)
 
-- **Firebase Hosting** (already set up in `firebase.json`): `firebase deploy --only hosting` publishes this folder at `https://<project-id>.web.app`. Add a custom domain in the Firebase console if you like.
-- **Anywhere else** (GitHub Pages, Netlify…): serve this folder as the site root.
+Like the studio's other apps (`/quickmath_about/`, `/NumIQ/`…), put these files in a folder of the `softmobixbd.github.io` repository, e.g. `offair/` (leave out `README.md`). The links are relative, so nothing needs changing. Then:
 
-`app-ads.txt` must be reachable at the root of the domain you list as the developer website in the stores, e.g. `https://<your-domain>/app-ads.txt`.
+- Privacy policy URL for Google Play and the App Store: `https://softmobixbd.github.io/offair/privacy.html`
+- Developer website in the store listings: `https://softmobixbd.github.io/`. Its root already serves the right `app-ads.txt`.
+- Add OffAir to the apps on the studio's home page.
+
+Firebase Hosting also works (`firebase deploy --only hosting`, set up in `firebase.json`) if you want `https://<project-id>.web.app`.
 
 ## After adding a game
 

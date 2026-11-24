@@ -469,7 +469,12 @@ p {
 }
 .cta .btn {
   flex: 1 1 auto;
-  white-space: nowrap;
+}
+/* One line per label where there's room; small phones may wrap. */
+@media (min-width: 420px) {
+  .cta .btn {
+    white-space: nowrap;
+  }
 }
 .pills {
   display: flex;
@@ -1010,4 +1015,23 @@ p {
     transition: none !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* ------------------------------------------------------------- studio */
+
+.studio .kicker {
+  margin-bottom: 6px;
+}
+.studio .cta {
+  margin-top: 16px;
+}
+
+/* The email address can't wrap at spaces: set it in the narrower UI face
+   so it stays on one line even on a 320 px phone. */
+.contact .btn {
+  max-width: 100%;
+  padding: 0 18px;
+  font: 900 clamp(14px, 4.4vw, 18px) / 1.2 var(--ui);
+  letter-spacing: 0;
+  overflow-wrap: anywhere;
 }

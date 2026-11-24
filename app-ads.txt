@@ -1,5 +1,5 @@
-# app-ads.txt for OffAir (https://iabtechlab.com/ads-txt/).
-# Replace the line below with the one AdMob gives you (AdMob → Apps →
-# app-ads.txt), uncommented. It must be served at the root of the developer
-# website named in the Play Store / App Store listing.
-# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+# app-ads.txt for SoftMobiXBD (https://iabtechlab.com/ads-txt/). The same line
+# is already served at https://softmobixbd.github.io/app-ads.txt, the root of
+# the developer website named in the store listings, which is where AdMob
+# looks. This copy only matters if this site is ever served from its own domain.
+google.com, pub-9885361335927746, DIRECT, f08c47fec0942fa0
