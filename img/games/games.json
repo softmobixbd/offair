@@ -162,6 +162,42 @@
     "blurb": "Missiles are on your tail. Weave through the sky and lure them into each other."
   },
   {
+    "id": "blobs",
+    "title": "Blob Buster",
+    "category": "arcade",
+    "categoryLabel": "Arcade",
+    "color": "#FF5A8A",
+    "ink": "#3A0A1A",
+    "blurb": "Roll the cannon, blast the bouncing jelly blobs and pop every piece before one lands on you."
+  },
+  {
+    "id": "coil",
+    "title": "Coil Crush",
+    "category": "arcade",
+    "categoryLabel": "Arcade",
+    "color": "#14C9A0",
+    "ink": "#032A22",
+    "blurb": "Roll the cannon and crush the winding coil scale by scale before it reaches its burrow."
+  },
+  {
+    "id": "spear",
+    "title": "Spear Storm",
+    "category": "arcade",
+    "categoryLabel": "Arcade",
+    "color": "#E63B4A",
+    "ink": "#2A0710",
+    "blurb": "Pull back, let fly and topple every foe off its ledge before they find their aim."
+  },
+  {
+    "id": "sling",
+    "title": "Sling Siege",
+    "category": "physics",
+    "categoryLabel": "Physics",
+    "color": "#FFB627",
+    "ink": "#2E1B00",
+    "blurb": "Pull back, let fly and bring every mole fort crashing down."
+  },
+  {
     "id": "sortiva",
     "title": "Sortiva",
     "category": "puzzle",
